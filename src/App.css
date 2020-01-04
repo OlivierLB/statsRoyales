@@ -1,3 +1,21 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "./Assets/Styles/Header.css";
+
+:root{
+  --foncer : #2D2D2D;
+  --clair : #F5F5F5;
+  --couleur : #FC913A;
+}
+
+@font-face {
+  font-family: 'Titre';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./Assets/Font/Fortnite.otf'); /* IE9 Compat Modes */
+}
+
 .App {
   text-align: center;
 }

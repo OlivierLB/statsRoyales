@@ -1,0 +1,65 @@
+@keyframes wheelHueColor {
+    from, to { color: hsl(324, 70%, 45%); }
+    10%      { color: hsl(360, 65%, 45%); }
+    20%      { color: hsl( 36, 80%, 45%); }
+    30%      { color: hsl( 72, 75%, 35%); }
+    40%      { color: hsl(108, 65%, 35%); }
+    50%      { color: hsl(144, 75%, 35%); }
+    60%      { color: hsl(180, 75%, 35%); }
+    70%      { color: hsl(216, 60%, 45%); }
+    80%      { color: hsl(252, 65%, 50%); }
+    90%      { color: hsl(288, 60%, 40%); }
+}
+
+@media (max-width: 30em) and (orientation: portrait) {
+    .rotate{
+        transform: rotate(-1deg);
+        height: 10px;
+        margin-top: 68px;
+    }
+}
+
+@media (max-height: 30em) and (orientation: landscape) {
+    .rotate{
+        transform: rotate(-1deg);
+        height: 15px;
+        margin-top: 65px;
+    }
+}
+
+@media (min-height: 30em) and (orientation: landscape) {
+    .rotate{
+        transform: rotate(-1deg);
+        height: 40px;
+        margin-top: 185px;
+    }
+    .titre{
+        font-size: 80px;
+    }
+}
+
+.rotate{
+    background-color: var(--foncer);
+    position: fixed;
+    width: 110%;
+    margin-left: -5px;
+    border-bottom-color: #282c34;
+}
+
+.sombre{
+    box-shadow: none;
+    background-color: var(--foncer);
+    color: var(--clair);
+    position: fixed;
+    width: 100%;
+    text-align:center;/*texte centré*/
+}
+
+.titre{
+    font-family: Titre;
+    animation: wheelHueColor 5s infinite;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: var(--clair);
+}
+
+
