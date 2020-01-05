@@ -6,7 +6,7 @@ export default class Header extends Component {
         return(
             <React.Fragment>
                 <div className="sombre">
-                    <h1 className="titre">Stats Royale</h1>
+                    <h1 className="titre">Versus Royale</h1>
                 </div>
                 <div className="rotate"/>
             </React.Fragment>

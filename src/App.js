@@ -14,10 +14,12 @@ const store  = createStore(
 function App() {
   return (
       <Provider store={store}>
-          <Header />
-          <React.Fragment>
+          <div className="header">
+              <Header />
+          </div>
+          <div className="corp">
               <Router/>
-          </React.Fragment>
+          </div>
       </Provider>
   );
 }

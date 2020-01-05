@@ -1,21 +1,11 @@
-@keyframes wheelHueColor {
-    from, to { color: hsl(324, 70%, 45%); }
-    10%      { color: hsl(360, 65%, 45%); }
-    20%      { color: hsl( 36, 80%, 45%); }
-    30%      { color: hsl( 72, 75%, 35%); }
-    40%      { color: hsl(108, 65%, 35%); }
-    50%      { color: hsl(144, 75%, 35%); }
-    60%      { color: hsl(180, 75%, 35%); }
-    70%      { color: hsl(216, 60%, 45%); }
-    80%      { color: hsl(252, 65%, 50%); }
-    90%      { color: hsl(288, 60%, 40%); }
-}
-
 @media (max-width: 30em) and (orientation: portrait) {
     .rotate{
         transform: rotate(-1deg);
         height: 10px;
         margin-top: 68px;
+    }
+    .header{
+        height: 85px;
     }
 }
 
@@ -24,6 +14,9 @@
         transform: rotate(-1deg);
         height: 15px;
         margin-top: 65px;
+    }
+    .header{
+        height: 90px;
     }
 }
 
@@ -35,6 +28,9 @@
     }
     .titre{
         font-size: 80px;
+    }
+    .header{
+        height: 252px;
     }
 }
 
@@ -57,9 +53,7 @@
 
 .titre{
     font-family: Titre;
-    animation: wheelHueColor 5s infinite;
+    color: var(--foncer);
     -webkit-text-stroke: 1px;
     -webkit-text-stroke-color: var(--clair);
 }
-
-

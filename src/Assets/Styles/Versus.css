@@ -1,0 +1,36 @@
+@media (min-height: 30em) and (orientation: landscape) {
+    .left {
+        float:left;
+        width:33%;
+        height: 500px;
+    }
+    .right {
+        float:left;
+        width:33%;
+        height: 500px;
+    }
+    .center {
+        float:left;
+        height: 500px;
+        width:33%;
+        padding-top: 10%;
+    }
+    img{
+        display: block !important;
+        height: 460px;
+    }
+}
+
+.versus{
+    text-align: center;
+    vertical-align: center;
+   transform: translateY(20%);
+}
+.vs{
+    font-family: Vs, serif;
+    font-size: 100px;
+}
+
+.vs:hover{
+    cursor: pointer;
+}
