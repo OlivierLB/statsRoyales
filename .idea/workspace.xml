@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b91fc9-eb6c-4e64-b101-45284acbc745" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Font/VS.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Personnages/Joker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Images/Personnages/chevalierNoir.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Styles/Input.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Styles/Versus.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Translate/fr.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Compare/Compare.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Compare/Compare.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/Actions/match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Redux/Reducers/match.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Utils/http.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Font/INFECTED.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Styles/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Styles/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Styles/Input.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Styles/Input.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Router/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Router/Router.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Versus/Versus.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Versus/Versus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Versus/Versus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Versus/Versus.jsx" afterDir="false" />
@@ -106,7 +100,7 @@
       <updated>1578180975305</updated>
       <workItem from="1578180978373" duration="2551000" />
       <workItem from="1578187481752" duration="3903000" />
-      <workItem from="1578233531547" duration="7766000" />
+      <workItem from="1578233531547" duration="12147000" />
     </task>
     <task id="LOCAL-00001" summary="Header">
       <created>1578181285162</created>
@@ -115,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578181285162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Page Versus">
+      <created>1578247513937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578247513937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,17 +125,18 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header" />
+    <MESSAGE value="Page Versus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page Versus" />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578236297313">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="505" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578236297313" />
-    <state x="381" y="101" key="CommitChangelistDialog2" timestamp="1578181283535">
+    <state x="381" y="101" key="CommitChangelistDialog2" timestamp="1578247510301">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="381" y="101" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578181283535" />
+    <state x="381" y="101" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578247510301" />
     <state x="604" y="400" width="426" height="240" key="Github.ShareDialog" timestamp="1578181231934">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -155,9 +157,9 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1550" height="235" key="GridCell.Tab.0.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578181153034" />
-    <state x="397" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578181287184">
+    <state x="397" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578247515644">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="397" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578181287184" />
+    <state x="397" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578247515644" />
   </component>
 </project>

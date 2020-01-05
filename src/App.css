@@ -28,3 +28,22 @@
   width: 100%;
   height: 300px;
 }
+
+a{
+  all: unset;
+}
+a:hover{
+  all: unset;
+}
+a:focus{
+  all: unset;
+}
+a:visited{
+  all: unset;
+}
+a:link{
+  all: unset;
+}
+a:active{
+  all: unset;
+}
