@@ -12,3 +12,7 @@ export default function(state = initialState, action) {
             return state;
     }
 }
+
+export function getStatsPlayers(state){
+    return state.match.statsPlayers
+}

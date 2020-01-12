@@ -5,15 +5,28 @@ import Compare from "../Compare/Compare"
 
 export default class Router extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            retour: <Versus setRoute={ this.updateRoute.bind(this)}  />
+        };
+        this.updateRoute = this.updateRoute.bind(this)
+    }
+
+    updateRoute(path){
+        switch (path) {
+            case "/match":
+                this.setState({retour: <Compare setRoute={this.updateRoute.bind(this)} />});
+                break;
+            default:
+        }
+    }
+
     render() {
         return(
-            <BrowserRouter>
-                <Switch>
-                    <Route exact path="/" component={Versus}/>
-                    <Route exact path="/match" component={Compare}/>
-                    <Redirect to='/'/>
-                </Switch>
-            </BrowserRouter>
+            <React.Fragment>
+                {this.state.retour}
+            </React.Fragment>
         );
     }
 }

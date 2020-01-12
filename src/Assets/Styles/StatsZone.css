@@ -1,0 +1,42 @@
+ul {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: var(--foncer);
+
+}
+
+li {
+    font-family: Titre, serif ;
+    font-size: 50px;
+    float: left;
+    color: var(--clair);
+    text-align: center;
+    height: 55px;
+    width: 24%;
+    border-right: solid 1px var(--clair);
+}
+li:hover{
+    cursor: pointer;
+}
+
+li:last-child{
+    border: none;
+    border-right: solid 1px var(--foncer);
+}
+
+.navBottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.statsZone{
+    border: solid 1px var(--foncer);
+    position: absolute;
+    top: 0;
+    height: calc(100% - 70px);
+    width: 99.85%;
+    text-align: left;
+}

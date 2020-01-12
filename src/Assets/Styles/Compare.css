@@ -1,0 +1,84 @@
+
+.slideGauche img {
+    -webkit-animation: MOVE-LEFT 2s forwards; /* Safari 4+ */
+    -moz-animation:    MOVE-LEFT 2s forwards; /* Fx 5+ */
+    -o-animation:      MOVE-LEFT 2s forwards; /* Opera 12+ */
+    animation:         MOVE-LEFT 2s forwards; /* IE 10+, Fx 29+ */
+}
+
+.slideDroite img {
+    -webkit-animation: MOVE-RIGHT 2s forwards; /* Safari 4+ */
+    -moz-animation:    MOVE-RIGHT 2s forwards; /* Fx 5+ */
+    -o-animation:      MOVE-RIGHT 2s forwards; /* Opera 12+ */
+    animation:         MOVE-RIGHT 2s forwards; /* IE 10+, Fx 29+ */
+}
+slideGauche{
+    position:relative;
+}
+slideDroite{
+    position:relative;
+}
+
+.comparaisonZone{
+    background-color: var(--clair);
+    width: 124%;
+    position:absolute;
+    margin-left: -12%;
+
+    -webkit-animation: MOVE-ZOOM 2s forwards; /* Safari 4+ */
+    -moz-animation:    MOVE-ZOOM 2s forwards; /* Fx 5+ */
+    -o-animation:      MOVE-ZOOM 2s forwards; /* Opera 12+ */
+    animation:         MOVE-ZOOM 2s forwards; /* IE 10+, Fx 29+ */
+
+}
+
+@-webkit-keyframes MOVE-RIGHT {
+    0%   { margin-left: 100%; }
+    100% { margin-left: 200%; }
+}
+@-moz-keyframes MOVE-RIGHT {
+    0%   { margin-left: 100%; }
+    100% { margin-left: 200%; }
+}
+@-o-keyframes MOVE-RIGHT {
+    0%   { margin-left: 100%; }
+    100% { margin-left: 200%; }
+}
+@keyframes MOVE-RIGHT {
+    0%   { margin-left: 100%; }
+    100% { margin-left: 200%; }
+}
+
+@-webkit-keyframes MOVE-LEFT {
+     0%   { margin-left: 0; }
+     100% { margin-left: -100%; }
+ }
+@-moz-keyframes MOVE-LEFT {
+    0%   { margin-left: 0; }
+    100% { margin-left: -100%; }
+}
+@-o-keyframes MOVE-LEFT {
+    0%   { margin-left: 0; }
+    100% { margin-left: -100%; }
+}
+@keyframes MOVE-LEFT {
+    0%   { margin-left: 0; }
+    100% { margin-left: -100%; }
+}
+
+@-webkit-keyframes MOVE-ZOOM {
+    0%   { opacity: 0; }
+    100% { opacity: 100%; }
+}
+@-moz-keyframes MOVE-ZOOM {
+    0%   { opacity: 0; }
+    100% { opacity: 100%; }
+}
+@-o-keyframes MOVE-ZOOM {
+    0%   { opacity: 0; }
+    100% { opacity: 100%; }
+}
+@keyframes MOVE-ZOOM {
+    0%   { opacity: 0; }
+    100% { opacity: 100%; }
+}

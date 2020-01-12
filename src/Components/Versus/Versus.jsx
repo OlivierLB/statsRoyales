@@ -33,7 +33,8 @@ export default class Versus extends Component {
             this.setState({errorTwo : false, correctTwo : true})
         }
         if(this.state.playerOne !== "" && this.state.playerTwo !== ""){
-            this.props.getMatchStats(this.state.playerOne, this.state.playerTwo)
+            this.props.getMatchStats(this.state.playerOne, this.state.playerTwo);
+            this.props.setRoute('/match');
         }
     }
 
@@ -64,9 +65,7 @@ export default class Versus extends Component {
                             <label htmlFor="nme"><span>Player One</span></label>
                         </div>
                         <div className="center">
-                            <a href={this.state.playerOne !== "" && this.state.playerTwo !== ""? "/match": "/"}>
-                                <h1 className="vs" onClick={this.fight} >Vs</h1>
-                            </a>
+                            <h1 className="vs" onClick={this.fight} >Vs</h1>
                         </div>
                         <div className="right">
                             <img src={joker} style={{display: "none"}} />

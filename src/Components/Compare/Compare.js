@@ -1,4 +1,11 @@
 import {connect} from "react-redux";
 import Compare from './Compare.jsx';
+import {getStatsPlayers} from "../../Redux/Reducers/match";
 
-export default connect()(Compare);
+const mapStateToProps = (state) => {
+    return {
+        statsPlayers : getStatsPlayers(state)
+    }
+};
+
+export default connect(mapStateToProps)(Compare);
