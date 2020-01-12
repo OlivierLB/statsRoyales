@@ -5,6 +5,13 @@ export default class StatsZone extends Component {
     render() {
         return(
             <React.Fragment>
+                <div className="nameZone">
+                    <div className="left playerOne">Bloxas</div>
+                    <div className="center">
+                        <h1 className="vs transitionVs">Vs</h1>
+                    </div>
+                    <div className="right playerTwo">Gitan</div>
+                </div>
                 <div className="statsZone">
                     <Container>
                         <Row>

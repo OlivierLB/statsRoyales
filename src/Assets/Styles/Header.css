@@ -24,10 +24,10 @@
     .rotate{
         transform: rotate(-1deg);
         height: 40px;
-        margin-top: 174px;
+        margin-top: 124px;
     }
     .titre{
-        font-size: 80px;
+        font-size: 60px;
     }
     .header{
         height: 252px;
