@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b91fc9-eb6c-4e64-b101-45284acbc745" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Assets/Styles/Compare.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/Styles/StatsZone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/StatsZone/StatsZone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/StatsZone/StatsZone.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/Styles/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Styles/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Compare/Compare.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Compare/Compare.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Compare/Compare.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Compare/Compare.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Router/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Router/Router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Router/Router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Router/Router.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Versus/Versus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Versus/Versus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Redux/Reducers/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Redux/Reducers/match.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/Styles/StatsZone.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/Styles/StatsZone.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StatsZone/StatsZone.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StatsZone/StatsZone.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +95,7 @@
       <workItem from="1578233531547" duration="12858000" />
       <workItem from="1578599090787" duration="1374000" />
       <workItem from="1578743763136" duration="8674000" />
-      <workItem from="1578835795316" duration="7640000" />
+      <workItem from="1578835795316" duration="9987000" />
     </task>
     <task id="LOCAL-00001" summary="Header">
       <created>1578181285162</created>
@@ -129,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578256780245</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Page de comparaison">
+      <created>1578844837426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578844837426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +136,8 @@
     <MESSAGE value="Header" />
     <MESSAGE value="Page Versus" />
     <MESSAGE value="Debut compare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Debut compare" />
+    <MESSAGE value="Page de comparaison" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page de comparaison" />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578236297313">
@@ -151,10 +148,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="370" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578756140553" />
-    <state x="381" y="101" key="CommitChangelistDialog2" timestamp="1578256776802">
+    <state x="381" y="101" key="CommitChangelistDialog2" timestamp="1578844833991">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="381" y="101" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578256776802" />
+    <state x="381" y="101" key="CommitChangelistDialog2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578844833991" />
     <state x="604" y="400" width="426" height="240" key="Github.ShareDialog" timestamp="1578181231934">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -175,10 +172,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state width="1550" height="235" key="GridCell.Tab.0.right/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578181153034" />
-    <state x="397" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578256842415">
+    <state x="397" y="254" key="Vcs.Push.Dialog.v2" timestamp="1578844839131">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="397" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578256842415" />
+    <state x="397" y="254" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1920.1040@0.0.2560.1040" timestamp="1578844839131" />
     <state x="326" y="131" width="642" height="786" key="find.popup" timestamp="1578843738745">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

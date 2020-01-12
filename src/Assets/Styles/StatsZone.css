@@ -40,3 +40,33 @@ li:last-child{
     width: 99.85%;
     text-align: left;
 }
+
+.-active{
+    color: var(--couleur);
+    -webkit-text-stroke: 0.2px;
+    -webkit-text-stroke-color: var(--clair);
+}
+
+progress[value] {
+    width: 100%;
+    height: 50px;
+    background-color: var(--clair);
+}
+progress {
+    border: solid 1px var(--foncer);
+    color: var(--foncer);
+    border-radius: 30px;
+    margin-top: 40px;
+}
+progress::-moz-progress-bar {
+    background: var(--foncer);
+    border-radius: 30px;
+}
+progress::-webkit-progress-value {
+    background: var(--foncer);
+    border-radius: 30px;
+}
+
+.-progress-meter{
+    padding-top: 5px;
+}
